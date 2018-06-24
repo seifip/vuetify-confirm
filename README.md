@@ -49,6 +49,6 @@ if (res) {
 You can format your message with arbitrary HTML - make sure you don't include any user-provided content here:
 
 ```js
-this.$confirm('Please do not do this.<br>Do you really want to exit?'}).then(res => {
+this.$confirm('Please do not do this.<br>Do you really want to exit?').then(res => {
 })
 ```
