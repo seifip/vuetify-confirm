@@ -19,11 +19,13 @@ Install with options or any of them:
 ```javascript
 import VuetifyConfirm from 'vuetify-confirm'
 Vue.use(VuetifyConfirm, {
-  buttonTrueText: 'OK',
-  buttonFalseText: 'On, ho',
-  color: 'warning',
-  icon: 'warning',
-  title: 'Warning',
+  buttonTrueText: 'Delete',
+  buttonFalseText: 'Cancel',
+  buttonTrueColor: 'warning',
+  buttonFalseColor: 'black',
+  headerColor: 'warning',
+  headerIcon: 'warning',
+  headerTitle: 'Warning',
   width: 300,
   property: '$confirm'
 })
